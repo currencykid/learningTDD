@@ -1,0 +1,10 @@
+<h1> Edit profile <%= @user.username %> </h1> 
+
+<%= form_for(@user) do |f| %> 
+
+  <%= f.label :username %>
+  <%= f.text_field :username %>
+
+  <%= f.submit "Save" %>
+
+<% end %> 
