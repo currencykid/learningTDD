@@ -1,5 +1,6 @@
 require "rails_helper"
 
+=begin
 RSpec.describe "Creating post" do
   scenario "successfully" do
     visit root_path
@@ -22,3 +23,4 @@ RSpec.describe "Creating post" do
     expect(page).to have_css ".error"
   end
 end
+=end
